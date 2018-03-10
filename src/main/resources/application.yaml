@@ -1,0 +1,10 @@
+server:
+  contextPath: /application-name-api
+  port: 9080
+  ssl:
+    enabled: false
+
+logging:
+  pattern:
+    console: "%-30(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{32} - %msg%n"
+  level:
